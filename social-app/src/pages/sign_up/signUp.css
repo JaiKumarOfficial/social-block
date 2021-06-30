@@ -1,0 +1,81 @@
+.signUp {
+  display: flex;
+  height: 100vh;
+}
+
+.signUp-left {
+  background: rgb(4, 99, 187);
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+.SignUp-logo {
+  font-size: 4rem;
+  font-weight: bolder;
+  /* color: rgb(4, 99, 187); */
+  color: white;
+}
+
+.signUp-right {
+  background: white;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+.signUp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40%;
+}
+.signUp-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: 40%; */
+}
+
+.signUp-btn {
+  background: #64c603 !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
+.signUp-btn-1 {
+  background: #64c603 !important;
+  font-weight: bold !important;
+}
+.login-link {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.login-link > h3 {
+  font-size: 1rem;
+}
+.login-btn {
+  background: rgb(4, 99, 187) !important;
+  font-weight: bold !important;
+  flex-basis: 26%;
+  color: white !important;
+}
+.login-btn-1 {
+  font-size: 1.2rem !important;
+  background: rgb(4, 99, 187) !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+.forget-password {
+  text-decoration: none;
+  color: inherit;
+  align-self: center;
+  color: rgb(100, 100, 100);
+}
+.forget-password:hover {
+  text-decoration-line: underline;
+}

@@ -1,0 +1,79 @@
+.rightbar {
+  flex: 2.5;
+  padding: 20px 20px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* background: white; */
+}
+
+.rightbar-eventContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.eventBanner {
+  font-size: 1.2rem;
+}
+.giftboxImg {
+  object-fit: contain;
+  width: 50px;
+  height: 50px;
+}
+.bdayBanner {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.rightbar-friendsContainer {
+  min-height: calc(100vh - 320px);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* background: white; */
+  border-radius: 10px;
+  /* box-shadow: 0 0 5px 2px #d1d1d1; */
+  padding: 10px;
+}
+.onlineFriends-hr {
+  width: 100%;
+}
+.onlineFriendList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.onlineFriend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+  color: rgb(48, 47, 47);
+}
+.onlineImg {
+  position: relative;
+  display: flex;
+}
+.rightbar .frndImg {
+  object-fit: cover;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+.onlineDot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background: rgb(92, 180, 3);
+  /* margin: 5px; */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.frndLink {
+  text-decoration: none;
+  color: inherit;
+}

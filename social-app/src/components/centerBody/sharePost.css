@@ -1,0 +1,108 @@
+.sharePost {
+  /* height: 150px; */
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px #d1d1d1;
+  border: none;
+  padding: 15px 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sharePost-top {
+  display: flex;
+  gap: 1rem;
+}
+.sharePost-input {
+  border: none;
+  width: 90%;
+  min-width: 50px;
+  resize: none;
+  font-size: 1.2rem;
+}
+.sharePost-input:focus {
+  outline: none;
+}
+.sharePost-img {
+  object-fit: cover;
+  object-position: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  min-width: 0;
+}
+
+.sharePost-hr {
+  width: 90%;
+  align-self: center;
+}
+
+.sharePost-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-weight: bold;
+  padding: 0 15px;
+}
+@media (max-width: 1140px) {
+  .sharePost-bottom {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1042px) {
+  .sharePost-bottom {
+    font-size: 0.7rem;
+  }
+}
+.sharePost-bottom-left {
+  display: flex;
+  gap: 1rem;
+}
+@media (max-width: 1042px) {
+  .sharePost-bottom-left {
+    gap: 0.7rem;
+  }
+}
+.sharePost-bottom-option {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.sharePost-label {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+}
+.photoIcon {
+  color: rgb(12, 180, 110);
+}
+.tagIcon {
+  color: blue;
+}
+.locationIcon {
+  color: crimson;
+}
+.emojiIcon {
+  color: rgb(235, 128, 41);
+}
+.sharePost-share-btn {
+  color: white !important;
+  background-color: rgb(0, 138, 0) !important;
+}
+.sharePost-share-btn:hover {
+  background-color: rgb(6, 199, 6) !important;
+}
+@media (max-width: 1140px) {
+  .sharePost-share-btn {
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 1024px) {
+  .sharePost-share-btn {
+    font-size: 0.6rem !important;
+  }
+}

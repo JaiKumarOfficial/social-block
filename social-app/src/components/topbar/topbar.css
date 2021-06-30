@@ -1,0 +1,163 @@
+.topbarContainer {
+  display: flex;
+  height: 35px;
+  padding: 10px 35px 10px 35px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(4, 99, 187);
+  position: sticky;
+  top: 0;
+  gap: 1rem;
+  z-index: 99;
+}
+
+.topbar-logo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+/* @media (max-width: 1024px) {
+  .topbar-logo {
+    font-size: 1rem;
+  }
+} */
+
+.topbar-center {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 50px;
+}
+.searchIcon {
+  color: rgb(83, 83, 83);
+  position: absolute;
+  top: 4px;
+  left: 5px;
+}
+.topbar-search {
+  border-radius: 15px;
+  border: none;
+  height: 30px;
+  width: 400px;
+  min-width: 50px;
+  padding-left: 30px;
+}
+.topbar-search:focus {
+  outline: none;
+}
+
+.topbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.topbar-btn-container {
+  display: flex;
+  gap: 1rem;
+}
+.topbar-links {
+  flex-basis: 100%;
+  display: flex;
+  cursor: pointer;
+  gap: 1rem;
+}
+.topbar-links a {
+  color: white;
+  text-decoration: none;
+}
+.topbar-icons {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.topbar-icon {
+  position: relative;
+}
+.topbarIcon {
+  color: white;
+}
+.iconBadge {
+  background-color: red;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.8rem;
+  position: absolute;
+  top: -5px;
+  color: white;
+}
+.personIcon {
+  left: 12px;
+}
+.msgIcon {
+  left: 15px;
+}
+.notiIcon {
+  left: 13px;
+}
+.profileOptions {
+  position: relative;
+}
+.profileImg-container {
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.profileImg {
+  object-fit: cover;
+  object-position: center;
+  width: 40px;
+  height: 40px;
+  min-width: 0;
+}
+.profileHover-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  min-height: 50px;
+  border-radius: 10px;
+  color: white;
+  top: 25px;
+  right: 0;
+}
+.profileHover-container > div {
+  min-height: 16px;
+  flex-basis: 10%;
+  /* background-color: transparent; */
+}
+.signout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: grey;
+  flex-basis: 90%;
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: -1px 6px 8px 0px rgb(0 0 0 / 35%);
+  -webkit-box-shadow: -1px 6px 8px 0px rgb(0 0 0 / 35%);
+  -moz-box-shadow: -1px 6px 8px 0px rgb(0 0 0 / 35%);
+  opacity: 0.95;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: end;
+}
+.signout > a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 0.8rem;
+}
+.signout > a:hover {
+  color: rgb(206, 5, 5);
+}

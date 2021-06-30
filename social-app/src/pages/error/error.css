@@ -1,0 +1,14 @@
+.error {
+  background-color: rgb(197, 196, 196);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.error-container {
+  display: flex;
+  gap: 1rem;
+}
+.error-container hr {
+  border-color: black;
+}

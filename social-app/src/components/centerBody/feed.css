@@ -1,0 +1,78 @@
+.feed-container {
+  background-color: white;
+  border-radius: 10px;
+  /* width: 100%; */
+  box-shadow: 0 0 5px 2px #d1d1d1;
+  overflow: hidden;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.feed-center-img {
+  object-fit: contain;
+  object-position: 50% 50%;
+  height: 500px;
+  width: 100%;
+}
+
+.feed-bottom {
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+.feed-bottom-top {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.feed-user {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  font-weight: bold;
+}
+.feed-userImg {
+  object-fit: cover;
+  object-position: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.feed-userId {
+  color: grey;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.feed-picOptions {
+  display: flex;
+  gap: 1rem;
+}
+.feed-opContainer {
+  display: flex;
+  gap: 0.3em;
+  align-items: center;
+}
+.feed-option-btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+.likeIcon:hover {
+  background-color: "red" !important;
+}
+.feed-caption {
+  padding: 0 10px;
+}
+.feed-timestamp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: grey;
+  font-size: 0.8rem;
+}

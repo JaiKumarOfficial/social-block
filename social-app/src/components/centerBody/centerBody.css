@@ -1,0 +1,13 @@
+.centerBody {
+  flex: 6;
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.centerBody-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+}

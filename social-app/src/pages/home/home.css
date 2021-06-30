@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  gap: 1rem;
+  min-height: calc(100vh - 55px);
+  background-color: #f3f3f3;
+}
