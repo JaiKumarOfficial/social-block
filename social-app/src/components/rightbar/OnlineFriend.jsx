@@ -1,19 +1,19 @@
 import React from  'react'
 
 
-export default function OnlineFriend () {
+export default function OnlineFriend ({frnd}) {
     return (
         <div className="onlineFriend">
             <div className="onlineImg">
                 <img
-                    src="/images/image.jpg"
-                    alt="name"
+                    src={frnd.profilePic}
+                    alt={frnd.name}
                     className="frndImg"
                 />
                 <div className="onlineDot"></div>
             </div>
             <a href="/kunalarora" className="frndLink">
-                <span className="frndName">Kunal Arora</span>
+                <span className="frndName">{frnd.name}</span>
             </a>
         </div>)
 }

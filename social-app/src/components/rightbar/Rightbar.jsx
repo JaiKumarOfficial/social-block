@@ -1,7 +1,7 @@
 import React from 'react'
 import "./rightbar.css"
 import OnlineFriend from './OnlineFriend'
-
+import {onlineFriends} from "../../data"
 
 export default function rightbar() {
 
@@ -40,8 +40,8 @@ export default function rightbar() {
             <div className="rightbar-friendsContainer">
                 <h3>Online Friends</h3>
                 <div className="onlineFriendList">
-                    { [1,2,3,4,5].map((i)=>{
-                            return <OnlineFriend key={i} />
+                    { onlineFriends.map((frnd)=>{
+                            return <OnlineFriend key={frnd.id} frnd={frnd} />
                         })
                     }  
                 </div>

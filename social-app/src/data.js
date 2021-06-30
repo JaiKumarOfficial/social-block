@@ -69,4 +69,9 @@ const user = {
   img: "/images/image.jpg",
 };
 
-export { friends, listItems, user };
+const onlineFriends = [
+  { id: 1, name: "Parth Mahna", profilePic: "/images/parthDP.jpg" },
+  { id: 2, name: "Kunal Arora", profilePic: "/images/cover.jpg" },
+];
+
+export { friends, listItems, user, onlineFriends };
